@@ -1,5 +1,3 @@
-/// honey dshdfkahslkhjl
-
 import {
   Authenticated,
   ErrorComponent,
@@ -36,7 +34,6 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
-// Test 2
 function App() {
   return (
     <BrowserRouter>
@@ -64,6 +61,16 @@ function App() {
                 create: "/categories/create",
                 edit: "/categories/edit/:id",
                 show: "/categories/show/:id",
+                meta: {
+                  canDelete: true,
+                },
+              },
+              {
+                name: "users",
+                list: "/users",
+                create: "/users/create",
+                edit: "/users/edit/:id",
+                show: "/users/show/:id",
                 meta: {
                   canDelete: true,
                 },
