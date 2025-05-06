@@ -3,11 +3,12 @@ import { useNavigation, useResource, useShow } from "@refinedev/core";
 export const CategoryShow = () => {
   const { edit, list } = useNavigation();
   const { id } = useResource();
-  const { queryResult } = useShow({});
+  const { queryResult, query } = useShow({});
   const { data } = queryResult;
 
   const record = data?.data;
 
+  if (query.isLoading) return null;
   return (
     <div style={{ padding: "16px" }}>
       <div
