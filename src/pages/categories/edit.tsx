@@ -11,6 +11,7 @@ export const CategoryEdit = () => {
     formState: { errors },
   } = useForm({});
 
+  // jonas
   return (
     <div style={{ padding: "16px" }}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
