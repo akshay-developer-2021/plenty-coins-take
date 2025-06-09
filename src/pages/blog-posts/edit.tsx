@@ -2,6 +2,7 @@ import { useNavigation, useSelect } from "@refinedev/core";
 import { useForm } from "@refinedev/react-hook-form";
 import React from "react";
 
+// this is the edit page for the blog posts
 export const BlogPostEdit = () => {
   const { list } = useNavigation();
 

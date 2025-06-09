@@ -1,6 +1,7 @@
 import { useNavigation, useSelect } from "@refinedev/core";
 import { useForm } from "@refinedev/react-hook-form";
 
+// this is the create page for the blog posts
 export const BlogPostCreate = () => {
   const { list } = useNavigation();
 

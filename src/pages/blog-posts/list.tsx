@@ -3,6 +3,7 @@ import { useTable } from "@refinedev/react-table";
 import { type ColumnDef, flexRender } from "@tanstack/react-table";
 import React from "react";
 
+// this is the list page for the blog posts
 export const BlogPostList = () => {
   const columns = React.useMemo<ColumnDef<any>[]>(
     () => [
