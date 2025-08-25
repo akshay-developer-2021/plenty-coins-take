@@ -30,6 +30,12 @@ import {
   CategoryList,
   CategoryShow,
 } from "./pages/categories";
+import {
+  ProductCreate,
+  ProductEdit,
+  ProductList,
+  ProductShow,
+} from "./pages/products";
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
@@ -61,6 +67,16 @@ function App() {
                 create: "/categories/create",
                 edit: "/categories/edit/:id",
                 show: "/categories/show/:id",
+                meta: {
+                  canDelete: true,
+                },
+              },
+              {
+                name: "products",
+                list: "/products",
+                create: "/products/create",
+                edit: "/products/edit/:id",
+                show: "/products/show/:id",
                 meta: {
                   canDelete: true,
                 },
@@ -111,6 +127,12 @@ function App() {
                   <Route path="create" element={<CategoryCreate />} />
                   <Route path="edit/:id" element={<CategoryEdit />} />
                   <Route path="show/:id" element={<CategoryShow />} />
+                </Route>
+                <Route path="/products">
+                  <Route index element={<ProductList />} />
+                  <Route path="create" element={<ProductCreate />} />
+                  <Route path="edit/:id" element={<ProductEdit />} />
+                  <Route path="show/:id" element={<ProductShow />} />
                 </Route>
                 <Route path="*" element={<ErrorComponent />} />
               </Route>
