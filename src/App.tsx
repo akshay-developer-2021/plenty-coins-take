@@ -39,7 +39,7 @@ import {
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
-console.log("testing from outer space ");
+
 function App() {
   return (
     <BrowserRouter>
