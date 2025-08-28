@@ -77,9 +77,9 @@ function App() {
                 create: "/products/create",
                 edit: "/products/edit/:id",
                 show: "/products/show/:id",
-                // meta: {
-                //   canDelete: true,
-                // },
+                meta: {
+                  canDelete: true,
+                },
               },
               {
                 name: "users",
