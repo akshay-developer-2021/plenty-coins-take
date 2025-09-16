@@ -40,6 +40,8 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
+console.log("app");
+
 function App() {
   return (
     <BrowserRouter>
@@ -71,16 +73,16 @@ function App() {
                   canDelete: true,
                 },
               },
-              {
-                name: "products",
-                list: "/products",
-                create: "/products/create",
-                edit: "/products/edit/:id",
-                show: "/products/show/:id",
-                meta: {
-                  canDelete: true,
-                },
-              },
+              // {
+              //   name: "products",
+              //   list: "/products",
+              //   create: "/products/create",
+              //   edit: "/products/edit/:id",
+              //   show: "/products/show/:id",
+              //   meta: {
+              //     canDelete: true,
+              //   },
+              // },
               {
                 name: "users",
                 list: "/users",
