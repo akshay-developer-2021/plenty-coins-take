@@ -37,7 +37,9 @@
     "dev": "refine dev",
     "build": "tsc && refine build",
     "start": "refine start",
-    "refine": "refine"
+    "refine": "refine",
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "ts:check": "tsc --noEmit"
   },
   "browserslist": {
     "production": [
