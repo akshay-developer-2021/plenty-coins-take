@@ -15,6 +15,9 @@ export const ProductCreate = () => {
     resource: "categories",
   });
 
+  // this is needed to debug the category options issue coming from useSelect 
+  console.log("Category Options:", categoryOptions);
+
   return (
     <div style={{ padding: "16px" }}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
