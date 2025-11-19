@@ -40,7 +40,7 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
-console.log("app");
+console.log("app yeah");
 
 function App() {
   return (
@@ -53,16 +53,16 @@ function App() {
             routerProvider={routerBindings}
             authProvider={authProvider}
             resources={[
-              // {
-              //   name: "blog_posts",
-              //   list: "/blog-posts",
-              //   create: "/blog-posts/create",
-              //   edit: "/blog-posts/edit/:id",
-              //   show: "/blog-posts/show/:id",
-              //   meta: {
-              //     canDelete: true,
-              //   },
-              // },
+              {
+                name: "blog_posts",
+                list: "/blog-posts",
+                create: "/blog-posts/create",
+                edit: "/blog-posts/edit/:id",
+                show: "/blog-posts/show/:id",
+                meta: {
+                  canDelete: true,
+                },
+              },
               {
                 name: "categories",
                 list: "/categories",
@@ -73,16 +73,16 @@ function App() {
                   canDelete: true,
                 },
               },
-              // {
-              //   name: "products",
-              //   list: "/products",
-              //   create: "/products/create",
-              //   edit: "/products/edit/:id",
-              //   show: "/products/show/:id",
-              //   meta: {
-              //     canDelete: true,
-              //   },
-              // },
+              {
+                name: "products",
+                list: "/products",
+                create: "/products/create",
+                edit: "/products/edit/:id",
+                show: "/products/show/:id",
+                meta: {
+                  canDelete: true,
+                },
+              },
               {
                 name: "users",
                 list: "/users",
@@ -166,3 +166,4 @@ function App() {
 }
 
 export default App;
+console.log("app done");
