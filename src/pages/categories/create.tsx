@@ -53,3 +53,4 @@ export const CategoryCreate = () => {
     </div>
   );
 };
+console.log("CategoryCreate component loaded");
