@@ -42,7 +42,6 @@ import { Register } from "./pages/register";
 
 console.log("app aah");
 
-const shouldShowKbar: boolean = "yes";
 
 function App() {
   return (
