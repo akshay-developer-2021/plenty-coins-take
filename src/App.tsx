@@ -42,8 +42,7 @@ import { Register } from "./pages/register";
 
 console.log("app aah");
 
-const shouldShowKbar: boolean = "yes";
-
+const shouldShowKbar = true;
 function App() {
   return (
     <BrowserRouter>
