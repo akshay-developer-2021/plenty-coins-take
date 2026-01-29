@@ -1,6 +1,7 @@
 import { AuthPage } from "@refinedev/core";
 
 export const Login = () => {
+  console.log("login page");
   return (
     <AuthPage
       type="login"
