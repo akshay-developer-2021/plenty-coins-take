@@ -100,7 +100,7 @@ function App() {
               useNewQueryKeys: true,
               projectId: "F9V834-Tu5j05-q7Yz2s",
             }}
-          
+          >
             <Routes>
               <Route
                 element={
