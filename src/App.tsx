@@ -40,8 +40,6 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
-const lintFailUnused = "lint-fail";
-const tsCheckFail: number = "not-a-number";
 
 console.log("app aah");
 
