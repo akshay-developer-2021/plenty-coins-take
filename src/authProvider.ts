@@ -1,7 +1,7 @@
 import type { AuthProvider } from "@refinedev/core";
 
 export const TOKEN_KEY = "refine-auth";
-debugger;
+
 
 export const authProvider: AuthProvider = {
   login: async ({ username, email, password }) => {
