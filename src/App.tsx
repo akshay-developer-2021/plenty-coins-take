@@ -40,10 +40,7 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
-const unusedCheckFailure = "lint-fail";
-const brokenSyntax = (
-
-console.log("app");
+console.log("app aah");
 
 function App() {
   return (
