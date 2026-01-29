@@ -42,6 +42,8 @@ import { Register } from "./pages/register";
 
 console.log("app aah");
 
+const shouldShowKbar: boolean = "yes";
+
 function App() {
   return (
     <BrowserRouter>
@@ -154,7 +156,7 @@ function App() {
               </Route>
             </Routes>
 
-            <RefineKbar />
+            {shouldShowKbar ? <RefineKbar /> : null}
             <UnsavedChangesNotifier />
             <DocumentTitleHandler />
           </Refine>
