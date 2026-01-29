@@ -113,7 +113,7 @@ function App() {
                     </Layout>
                   </Authenticated>
                 }
-              >
+              
                 <Route
                   index
                   element={<NavigateToResource resource="blog_posts" />}
