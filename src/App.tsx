@@ -42,7 +42,7 @@ import { Register } from "./pages/register";
 
 
 console.log("app aah");
-
+debugger;
 const shouldShowKbar = true;
 function App() {
   return (
