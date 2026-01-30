@@ -40,6 +40,7 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
+
 const shouldShowKbar = true;
 function App() {
   return (
