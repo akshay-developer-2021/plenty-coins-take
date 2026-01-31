@@ -40,6 +40,7 @@ import {
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+const unusedE2EVar: string = "ci-alert-test"; // CI_ALERT_E2E_TS_FAILURE
 debugger; // CI_ALERT_E2E_ESLINT_FAILURE
 
 console.log("app");
