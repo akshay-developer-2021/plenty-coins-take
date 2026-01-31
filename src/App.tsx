@@ -40,7 +40,7 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
-console.log("app");
+
 
 function App() {
   return (
