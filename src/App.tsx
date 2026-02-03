@@ -44,7 +44,7 @@ const TestComponent = () => {
   return (
     <div style={{ padding: "20px", background: "#f0f0f0", margin: "10px", borderRadius: "8px" }}>
       <h3>Test Component</h3>
-      <p>This is a random test component.</p>
+      <p>This is a not so random test component.</p>
     </div>
   );
 };
