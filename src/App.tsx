@@ -40,11 +40,20 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
+const TestComponent = () => {
+  return (
+    <div style={{ padding: "20px", background: "#f0f0f0", margin: "10px", borderRadius: "8px" }}>
+      <h3>Test Component</h3>
+      <p>This is a random test component.</p>
+    </div>
+  );
+};
+
 function App() {
-  console.log("App rendered");
   return (
     <BrowserRouter>
       <GitHubBanner />
+      <TestComponent />
       <RefineKbarProvider>
         <DevtoolsProvider>
           <Refine
