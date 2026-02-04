@@ -1,4 +1,4 @@
-// CI Alert E2E Test - 2026-02-03T10:48:53Z
+console.log("App module loaded");
 import {
   Authenticated,
   ErrorComponent,
@@ -41,6 +41,8 @@ import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
+
+console.log("App component defined");
 function App() {
   console.log("App rendered");
   return (
@@ -166,3 +168,4 @@ function App() {
 }
 
 export default App;
+console.log("App module exported");
