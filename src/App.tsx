@@ -86,6 +86,16 @@ function App() {
                 },
               },
               {
+                name: "products",
+                list: "/products",
+                create: "/products/create",
+                edit: "/products/edit/:id",
+                show: "/products/show/:id",
+                meta: {
+                  canDelete: true,
+                },
+              },
+              {
                 name: "users",
                 list: "/users",
                 create: "/users/create",

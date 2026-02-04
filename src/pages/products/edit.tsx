@@ -29,7 +29,7 @@ export const ProductEdit = () => {
         <h1>Edit Product</h1>
         <div>
           <button
-            onClick={() => {
+            onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
               list("products");
             }}
           >
