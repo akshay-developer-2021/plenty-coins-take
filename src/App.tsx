@@ -37,6 +37,12 @@ import {
   ProductList,
   ProductShow,
 } from "./pages/products";
+import {
+  OrderCreate,
+  OrderEdit,
+  OrderList,
+  OrderShow,
+} from "./pages/orders";
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
@@ -93,6 +99,16 @@ function App() {
                   canDelete: true,
                 },
               },
+              {
+                name: "orders",
+                list: "/orders",
+                create: "/orders/create",
+                edit: "/orders/edit/:id",
+                show: "/orders/show/:id",
+                meta: {
+                  canDelete: true,
+                },
+              },
             ]}
             options={{
               syncWithLocation: true,
@@ -135,6 +151,12 @@ function App() {
                   <Route path="create" element={<ProductCreate />} />
                   <Route path="edit/:id" element={<ProductEdit />} />
                   <Route path="show/:id" element={<ProductShow />} />
+                </Route>
+                <Route path="/orders">
+                  <Route index element={<OrderList />} />
+                  <Route path="create" element={<OrderCreate />} />
+                  <Route path="edit/:id" element={<OrderEdit />} />
+                  <Route path="show/:id" element={<OrderShow />} />
                 </Route>
                 <Route path="*" element={<ErrorComponent />} />
               </Route>
