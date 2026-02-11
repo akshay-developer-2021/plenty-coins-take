@@ -41,6 +41,7 @@ import {
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+const e2eTypeError: number = "not-a-number"; // CI_ALERT_E2E_TS_FAILURE
 
 function App() {
   console.log("App rendered");
