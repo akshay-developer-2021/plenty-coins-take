@@ -1,4 +1,4 @@
-// yoo
+
 import {
   Authenticated,
   ErrorComponent,
