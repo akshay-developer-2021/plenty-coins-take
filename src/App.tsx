@@ -1,3 +1,4 @@
+// CI Alert E2E Test - 2026-02-17T09:20:08Z
 // test
 import {
   Authenticated,
@@ -40,6 +41,7 @@ import {
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+debugger; // CI_ALERT_E2E_ESLINT_FAILURE
 
 function App() {
   console.log("App rendered");
