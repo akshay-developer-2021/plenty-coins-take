@@ -1,5 +1,3 @@
-// CI Alert E2E Test - 2026-02-24T21:51:41Z
-// test
 import {
   Authenticated,
   ErrorComponent,
