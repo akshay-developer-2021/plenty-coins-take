@@ -1,3 +1,5 @@
+// APP
+
 import {
   Authenticated,
   ErrorComponent,
