@@ -1,4 +1,3 @@
-// humm
 import {
   Authenticated,
   ErrorComponent,
