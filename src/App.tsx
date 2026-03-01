@@ -1,4 +1,3 @@
-// ok
 import {
   Authenticated,
   ErrorComponent,
