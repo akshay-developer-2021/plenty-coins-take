@@ -2,7 +2,6 @@ from models import User, Product, Order
 from database import db
 from utils import validate_email, format_currency, generate_receipt
 
-
 class UserService:
     def register(self, name: str, email: str) -> User:
         if not validate_email(email):
