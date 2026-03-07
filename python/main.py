@@ -5,6 +5,7 @@ from utils import format_currency, timestamp
 
 def main():
     print(f"Store initialized at {timestamp()}")
+    
     print()
 
     user_svc = UserService()
