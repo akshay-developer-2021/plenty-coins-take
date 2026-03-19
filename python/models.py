@@ -35,7 +35,6 @@ class Product:
     def adjust_stock(self, quantity: int):
         self.stock = max(0, self.stock + quantity)
 
-
 @dataclass
 class Order:
     user: User

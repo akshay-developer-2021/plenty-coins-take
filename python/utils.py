@@ -7,12 +7,10 @@ def validate_email(email: str) -> bool:
     pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
     return bool(re.match(pattern, email))
 
-
 def format_currency(amount: float, currency: str = "USD") -> str:
     symbols = {"USD": "$", "EUR": "\u20ac", "GBP": "\u00a3"}
     symbol = symbols.get(currency, currency + " ")
     return f"{symbol}{amount:,.2f}"
-
 
 def generate_receipt(order: Order) -> str:
     lines = [
