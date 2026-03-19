@@ -16,6 +16,7 @@ export const BlogPostShow = () => {
     },
   });
 
+  console.log("record", record);
   return (
     <div style={{ padding: "16px" }}>
       <div
