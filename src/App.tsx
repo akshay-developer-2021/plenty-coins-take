@@ -44,7 +44,6 @@ import { RESOURCES } from "./resources";
 
 
 function App() {
-  console.log("App rendered");
   return (
     <BrowserRouter>
       <GitHubBanner />

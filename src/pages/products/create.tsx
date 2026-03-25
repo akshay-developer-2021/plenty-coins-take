@@ -15,6 +15,7 @@ export const ProductCreate = () => {
     resource: "categories",
   });
 
+  console.log("Category options:", categoryOptions);
   return (
     <div style={{ padding: "16px" }}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
