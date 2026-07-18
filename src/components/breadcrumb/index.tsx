@@ -2,6 +2,7 @@ import { useBreadcrumb } from "@refinedev/core";
 import { Link } from "react-router";
 
 export const Breadcrumb = () => {
+  console.log("[render] Breadcrumb");
   const { breadcrumbs } = useBreadcrumb();
 
   return (
