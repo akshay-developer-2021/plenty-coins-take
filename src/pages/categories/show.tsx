@@ -1,6 +1,7 @@
 import { useNavigation, useResource, useShow } from "@refinedev/core";
 
 export const CategoryShow = () => {
+  console.log("[render] CategoryShow");
   const { edit, list } = useNavigation();
   const { id } = useResource();
   const { queryResult, query } = useShow({});

@@ -2,6 +2,7 @@ import { useOne, useNavigation } from "@refinedev/core";
 import { useParams } from "react-router";
 
 export const ProductShow = () => {
+  console.log("[render] ProductShow");
   const { id } = useParams();
   const { list, edit } = useNavigation();
 

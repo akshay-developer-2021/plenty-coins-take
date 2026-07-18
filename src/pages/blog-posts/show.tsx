@@ -1,6 +1,7 @@
 import { useNavigation, useOne, useResource, useShow } from "@refinedev/core";
 
 export const BlogPostShow = () => {
+  console.log("[render] BlogPostShow");
   const { edit, list } = useNavigation();
   const { id } = useResource();
   const { queryResult } = useShow({});
