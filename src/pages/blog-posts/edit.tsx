@@ -3,6 +3,7 @@ import { useForm } from "@refinedev/react-hook-form";
 import React from "react";
 
 export const BlogPostEdit = () => {
+  console.log("[render] BlogPostEdit");
   const { list } = useNavigation();
 
   const {
