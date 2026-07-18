@@ -4,6 +4,7 @@ import { type ColumnDef, flexRender } from "@tanstack/react-table";
 import React from "react";
 
 export const ProductList = () => {
+  console.log("[render] ProductList");
   const columns = React.useMemo<ColumnDef<any>[]>(
     () => [
       {

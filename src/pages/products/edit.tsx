@@ -3,6 +3,7 @@ import { useForm } from "@refinedev/react-hook-form";
 import { useParams } from "react-router";
 
 export const ProductEdit = () => {
+  console.log("[render] ProductEdit");
   const { id } = useParams();
   const { list, show } = useNavigation();
 
