@@ -5,6 +5,7 @@ export const Menu = () => {
   const { mutate: logout } = useLogout();
   const { menuItems } = useMenu();
 
+  console.log("Rendering Menu");
   return (
     <nav className="menu">
       <ul>
