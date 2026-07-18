@@ -2,6 +2,7 @@ import { useLogout, useMenu } from "@refinedev/core";
 import { NavLink } from "react-router";
 
 export const Menu = () => {
+  console.log("[render] Menu");
   const { mutate: logout } = useLogout();
   const { menuItems } = useMenu();
 

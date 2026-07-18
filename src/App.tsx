@@ -42,6 +42,7 @@ import { Login } from "./pages/login";
 import { Register } from "./pages/register";
 
 function App() {
+  console.log("[render] App");
   return (
     <BrowserRouter>
       <GitHubBanner />
