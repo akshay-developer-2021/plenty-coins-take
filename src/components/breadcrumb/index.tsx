@@ -4,6 +4,7 @@ import { Link } from "react-router";
 export const Breadcrumb = () => {
   const { breadcrumbs } = useBreadcrumb();
 
+  console.log("Rendering Breadcrumb");
   return (
     <ul className="breadcrumb">
       {breadcrumbs.map((breadcrumb) => {
