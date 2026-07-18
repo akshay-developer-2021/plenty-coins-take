@@ -40,6 +40,7 @@ import {
 import { ForgotPassword } from "./pages/forgotPassword";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+import { withLifecycleLogger } from "./hocs/withLifecycleLogger";
 
 function App() {
   return (
@@ -164,4 +165,4 @@ function App() {
   );
 }
 
-export default App;
+export default withLifecycleLogger(App, "App");
